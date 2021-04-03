@@ -1,0 +1,82 @@
+/*Colors and fonts*/
+
+
+}
+
+body {
+	background-color: #f8f5f1;
+	color: black; 
+    margin : 0;
+ }
+
+ h1 {
+    text-align: center;
+    font-size: 30px;
+ }
+
+ 
+/*Custom design with class*/
+
+ 
+  @media (max-width:400px) {
+    .div-white {
+        width: 200px;
+    }
+  }
+
+.div-white{
+    font-family: 'New Tegomin', serif;
+    font-weight: 600;
+	text-align: justify;
+	 background: white;
+     box-shadow: 10px 5px 5px grey;
+     border-radius: 5px;
+     padding: 20px;
+     margin: 10px;
+}
+
+
+#div-princp {
+    background-color: mistyrose;
+    color: rgb(40,40,40);
+    padding: 10px;
+    text-align: justify; 
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;  
+    margin-right: auto;
+   
+     
+ }
+ #lien-coco {
+    text-decoration: none;
+	 color: #1597bb;
+	 font-weight : 900; 
+}
+	
+   
+#lien-coco:hover {
+    	background-color: black;
+    	color: white;
+}
+
+
+h2{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.div-white-Followme {
+    padding-left: 0px;
+}
+
+
+.div-white-Followme li {
+    display: inline;
+    padding: 10px;
+}
+
+.div-white-Followme i {
+    font-size: 50px;
+    color: #1597bb;
+}
